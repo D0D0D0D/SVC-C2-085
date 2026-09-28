@@ -1,0 +1,18 @@
+# Runtime parameters.  Policy rules themselves live in review_criteria.yaml.
+memory_enabled: true
+max_retry: 3
+timeout_s: 30
+payload_ttl_seconds: 3600
+retention_years: null
+review_criteria_path: config/review_criteria.yaml
+program_type_vocabulary_version: "1.0"
+program_types:
+  - drama
+  - variety
+  - news
+  - sports
+  - documentary
+  - commercial
+hitl:
+  enabled: true
+  max_hitl: 8

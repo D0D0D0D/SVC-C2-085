@@ -1,0 +1,29 @@
+schema_owner: "customer_broadcast_review_department"
+criteria:
+  - criteria_id: JBA-BC-STD-ART-152
+    axis: broadcast_standards
+    source_url: https://j-ba.or.jp/category/broadcasting/jba101035
+    criteria_version: "2026.1"
+    effective_date: "2026-01-01"
+    scope_note: "広告と番組内容の識別、およびスポンサー開示の確認対象"
+    approved_by: "broadcast_review_department"
+    approved_at: "2026-01-01"
+    tenant_policy_id: null
+  - criteria_id: PMD-ACT-AD-STANDARD
+    axis: pmd_act
+    source_url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000179269.html
+    criteria_version: "2026.1"
+    effective_date: "2026-01-01"
+    scope_note: "医薬品的な効能効果の標榜に関する確認対象"
+    approved_by: "broadcast_review_department"
+    approved_at: "2026-01-01"
+    tenant_policy_id: null
+  - criteria_id: CAA-STEALTH-MARKETING-NOTICE
+    axis: stealth_marketing
+    source_url: https://www.caa.go.jp/policies/policy/representation/fair_labeling/stealth_marketing/
+    criteria_version: "2026.1"
+    effective_date: "2026-01-01"
+    scope_note: "広告であることの明瞭性と便宜供与に関する確認対象"
+    approved_by: "broadcast_review_department"
+    approved_at: "2026-01-01"
+    tenant_policy_id: null
